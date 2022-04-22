@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <!-- ----------navbar-------------- -->
+    <header class="header">
+      <a href="/index.html">
+        <img class="nav__logo" src="../img/logo.png" alt="logo"
+      /></a>
+
+      <nav class="nav">
+        <ul class="nav__lista">
+          <li class="nav__item">
+            <a class="nav__link" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/pages/experiencias.html"
+              >Experiencias</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/pages/destinos.html">Destinos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/pages/quienes-somos.html"
+              >Quienes somos</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- -------------MAIN----------------- -->
+    <main class="contacto">
+      <section class="contacto__hero">
+        <h1 class="contacto__titulo">Contacto</h1>
+        <p class="contacto__parrafo">
+          ¿Tenes alguna consulta? No dudes en contactarnos
+        </p>
+        <p class="contacto__parrafo2">
+          Rellena los siguientes campos para ponerte en contacto con nosotros
+        </p>
+      </section>
+      <section class="form">
+        <form action="" method="" enctype="">
+          <div class="form__cont">
+            <label for="Nombre">Nombre:</label>
+            <input
+              type="text"
+              id="Nombre"
+              name="name"
+              placeholder="Ingrese su Nombre"
+            />
+          </div>
+          <div class="form__cont">
+            <label for="Apellido">Numero telefonico:</label>
+            <input
+              type="text"
+              id="Numero"
+              name="number"
+              placeholder="Ingrese su Numero telefonico"
+            />
+          </div>
+          <div class="form__cont">
+            <label for="Mail">Mail:</label>
+            <input
+              type="email"
+              id="Mail"
+              name="Mail"
+              placeholder="Ingrese su correo electronico"
+            />
+          </div>
+          <div class="form__cont">
+            <label for="comentario">Comentario:</label>
+            <textarea
+              placeholder="Ingrese su comentario"
+              name="comentario"
+              id="comentario"
+              cols="20"
+              rows="7"
+              style="resize: none"
+            ></textarea>
+          </div>
+          <div class="form__val">
+            <label for="valoracion">Valoracion: ★★★★★ </label>
+          </div>
+          <div class="form__link">
+            <a class="form__enlace" href="./terminos.html" target="blank">
+              <label>Aceptar terminos y condiciones</label></a
+            >
+            <input type="checkbox" />
+          </div>
+
+          <div class="form__cont">
+            <input type="submit" name="button" id="boton" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- ---------------Footer----------------------- -->
+    <footer class="pie">
+      <div class="pie__container">
+        <div class="pie__column1">
+          <h4 class="pie__titulos">Redes</h4>
+          <a href="#"
+            ><img src="https://www.dummyimage.com/50x50/000/fff" alt="logo"
+          /></a>
+          <a href="#"
+            ><img src="https://www.dummyimage.com/50x50/000/fff" alt="logo"
+          /></a>
+          <a href="#"
+            ><img src="https://www.dummyimage.com/50x50/000/fff" alt="logo"
+          /></a>
+        </div>
+
+        <div class="pie__column2">
+          <h4 class="pie__titulos">Explorar</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, aspernatur</p>
+        </div>
+
+        <div class="pie__column3">
+          <h4 class="pie__titulos">Soporte</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, aspernatur</p>
+        </div>
+      </div>
+      <div class="pie__derechos">
+        <p class="pie__derechos__parrafo">
+          2022© <a class="pie__nombre" href="#">Dylan Hoyos</a> . All right
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
