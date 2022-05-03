@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
 
     <title>ViajAR</title>
   </head>
@@ -15,8 +16,11 @@
       <a href="index.html">
         <img class="nav__logo" src="./img/logo.png" alt="logo"
       /></a>
+      <a href="#burguer" class="header__burguer">
+        <span class="jam jam-alert"></span>
+      </a>
 
-      <nav class="nav">
+      <nav class="nav" id="burguer">
         <ul class="nav__lista">
           <li class="nav__item">
             <a class="nav__link" href="index.html">Inicio</a>
@@ -36,6 +40,9 @@
           </li>
           <li class="nav__item">
             <a class="nav__link" href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav__item">
+            <a class="jam jam-close-circle-f nav__cierre" href="#"></a>
           </li>
         </ul>
       </nav>
@@ -68,62 +75,17 @@
             pasión por lo que hacemos como elementos fundamentales del éxito.
           </p>
         </div>
+        <h1 id="viajes-turismo" class="cont__titulo">
+          Viajes y <span class="color__span">Turismo</span>
+        </h1>
 
-        <section class="cont">
-          <h1 id="viajes-turismo" class="cont__titulo">
-            Viajes y <span class="color__span">Turismo</span>
-          </h1>
-          <div class="cont__flex">
+        <section class="cont grid">
+          <div class="grid__hijo grid__hijo1">
             <div class="cont__card">
               <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
               <img
                 class="cont__img"
-                src="/img/villa.jpg"
-                alt="imagen placeholder"
-              />
-
-              <p class="cont_parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
-                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
-                aliquid mollitia quasi!
-              </p>
-            </div>
-            <div class="cont__card">
-              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
-              <img
-                class="cont__img"
-                src="/img/Lago.jpg"
-                alt="imagen placeholder"
-              />
-
-              <p class="cont_parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
-                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
-                aliquid mollitia quasi!
-              </p>
-            </div>
-            <div class="cont__card">
-              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
-              <img
-                class="cont__img"
-                src="/img/reflejo.jpg"
-                alt="imagen placeholder"
-              />
-
-              <p class="cont_parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
-                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
-                aliquid mollitia quasi!
-              </p>
-            </div>
-            <div class="cont__card">
-              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
-              <img
-                class="cont__img"
-                src="/img/ruta.webp"
+                src="./img/villa.jpg"
                 alt="imagen placeholder"
               />
 
@@ -135,31 +97,96 @@
               </p>
             </div>
           </div>
-          <div class="cont__cardiff">
+
+          <div class="grid__hijo grid__hijo2">
+            <div class="cont__card">
+              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
+              <img
+                class="cont__img"
+                src="./img/Lago.jpg"
+                alt="imagen placeholder"
+              />
+
+              <p class="cont_parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
+                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
+                aliquid mollitia quasi!
+              </p>
+            </div>
+          </div>
+
+          <div class="grid__hijo grid__hijo3">
+            <div class="cont__card">
+              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
+              <img
+                class="cont__img"
+                src="./img/glaciar.jpg"
+                alt="imagen placeholder"
+              />
+
+              <p class="cont_parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
+                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
+                aliquid mollitia quasi!
+              </p>
+            </div>
+          </div>
+          <div class="grid__hijo grid__hijo4">
+            <div class="cont__card">
+              <h2 class="cont__card__titulos">Tarjeta de viaje</h2>
+              <img
+                class="cont__img"
+                src="./img/ruta.webp"
+                alt="imagen placeholder"
+              />
+
+              <p class="cont_parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                dicta harum autem. Nesciunt assumenda minima tenetur libero quos
+                id maxime iusto, dolorem deleniti harum nemo obcaecati modi
+                aliquid mollitia quasi!
+              </p>
+            </div>
+          </div>
+          <div class="grid__hijo grid__hijo5">
+            <div class="cont__cardiff">
+              <img src="./img/glaciar.webp" alt="imagen placeholder" />
+            </div>
+          </div>
+
+          <!-- <div>
+       
+           
+
+          </div>
+          <div class="cont__cardiff ">
             <img
               class="cont__imgdiff"
-              src="/img/glaciar.webp"
+              src="./img/glaciar.webp"
               alt="imagen placeholder"
             />
+          </div> -->
+        </section>
+
+        <section>
+          <h1 class="info__titulo">¿Porque elegirnos?</h1>
+          <div class="info">
+            <p class="info__parrafo">
+              <a class="info__resalta" href="#viajes-turismo">
+                viajes y turismo</a
+              >, Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Fugiat eligendi facilis impedit quisquam est illum tempore? Quas
+              similique ad ducimus sequi deleniti dolorum quia, cum a tempora
+              doloribus blanditiis esse.
+            </p>
           </div>
-          <section>
-            <h1 class="info__titulo">¿Porque elegirnos?</h1>
-            <div class="info">
-              <p class="info__parrafo">
-                <a class="info__resalta" href="#viajes-turismo">
-                  viajes y turismo</a
-                >, Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Fugiat eligendi facilis impedit quisquam est illum tempore? Quas
-                similique ad ducimus sequi deleniti dolorum quia, cum a tempora
-                doloribus blanditiis esse.
-              </p>
-            </div>
-          </section>
         </section>
       </section>
 
       <section class="banner2">
-        <video src="/img/video.mp4" autoplay loop></video>
+        <video src="./img/video.mp4" autoplay loop></video>
       </section>
     </main>
 

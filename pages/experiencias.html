@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
     <title>experiencias</title>
   </head>
   <body>
@@ -13,8 +14,11 @@
       <a href="/index.html">
         <img class="nav__logo" src="../img/logo.png" alt="logo"
       /></a>
+      <a href="#burguer" class="header__burguer">
+        <span class="jam jam-alert"></span>
+      </a>
 
-      <nav class="nav">
+      <nav class="nav" id="burguer">
         <ul class="nav__lista">
           <li class="nav__item">
             <a class="nav__link" href="/index.html">Inicio</a>
@@ -35,6 +39,9 @@
           <li class="nav__item">
             <a class="nav__link" href="/pages/contacto.html">Contacto</a>
           </li>
+          <li class="nav__item">
+            <a class="jam jam-close-circle-f nav__cierre" href="#"></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -52,28 +59,47 @@
           indicado
         </p>
       </section>
-      <section class="cardE">
-        <div class="cardE__conteiner">
-          <img class="cardE__img" src="/img/bosque1.jpg" alt="img-ejemplo" />
-          <h2 class="cardE__text">Excursiones</h2>
-        </div>
-        <div class="cardE__conteiner">
-          <img class="cardE__img" src="/img/bosque2.jpg" alt="img-ejemplo" />
-          <h2 class="cardE__text">Aventuras</h2>
-        </div>
-        <div class="cardE__conteiner">
-          <img class="cardE__img" src="/img/paisaje.jpg" alt="img-ejemplo" />
-          <h2 class="cardE__text">Relax</h2>
-        </div>
-        <div class="cardE__conteiner">
-          <img class="cardE__img" src="/img/rio.jpg" alt="img-ejemplo" />
-          <h2 class="cardE__text">Paisajes</h2>
-        </div>
-        <div class="cardE__conteiner">
-          <img class="cardE__img" src="/img/turista.jpg" alt="img-ejemplo" />
-          <h2 class="cardE__text">Desafios</h2>
-        </div>
-      </section>
+      <secttion class="gridF">
+        <section class="gridE">
+          <div class="gridE__hijo gridE__hijo1">
+            <img
+              class="cardE__img"
+              src="../img/bosque1.jpg"
+              alt="img-ejemplo"
+            />
+            <h2 class="cardE__text">Excursiones</h2>
+          </div>
+          <div class="gridE__hijo gridE__hijo2">
+            <img
+              class="cardE__img"
+              src="../img/bosque2.jpg"
+              alt="img-ejemplo"
+            />
+            <h2 class="cardE__text">Aventuras</h2>
+          </div>
+          <div class="gridE__hijo gridE__hijo3">
+            <img
+              class="cardE__img"
+              src="../img/paisaje.jpg"
+              alt="img-ejemplo"
+            />
+            <h2 class="cardE__text">Relax</h2>
+          </div>
+          <div class="gridE__hijo gridE__hijo4">
+            <img class="cardE__img" src="../img/rio.jpg" alt="img-ejemplo" />
+            <h2 class="cardE__text">Paisajes</h2>
+          </div>
+          <div class="gridE__hijo gridE__hijo5">
+            <img
+              class="cardE__img"
+              src="../img/turista.jpg"
+              alt="img-ejemplo"
+            />
+            <h2 class="cardE__text">Desafios</h2>
+          </div>
+        </section>
+      </secttion>
+
       <section class="vermas">
         <h2 class="vermas__titulo">Ver <span class="color__span">Mas</span></h2>
       </section>
