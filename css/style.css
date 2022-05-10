@@ -64,7 +64,7 @@ main {
 }
 
 .banner__main {
-  background-image: url(/img/banner.svg);
+  background-image: url(img/banner.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +94,7 @@ main {
 .section__1 {
   min-height: 1000px;
   width: auto;
-  background-image: url(/img/fondo.jpg);
+  background-image: url(img/fondo.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -281,7 +281,7 @@ footer {
 }
 .contacto {
   padding: 2rem;
-  background-image: url(/img/fondo\ contacto.svg);
+  background-image: url(img/fondo\ contacto.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +308,7 @@ footer {
 /* ---------------------Quienes somos------------------ */
 .qs {
   padding: 2rem;
-  background-image: url(/img/fondo-quienesomos.svg);
+  background-image: url(img/fondo-quienesomos.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -421,7 +421,7 @@ footer {
 }
 
 .sectE__fondo {
-  background-image: url(/img/Cloudy.svg);
+  background-image: url(img/Cloudy.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -567,7 +567,7 @@ video {
   width: 100%;
   min-height: 500px;
   background-color: red;
-  background-image: url(/img/glaciar.jpg);
+  background-image: url(img/glaciar.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
