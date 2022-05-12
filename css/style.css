@@ -270,10 +270,7 @@ footer {
   margin-bottom: 1rem;
 }
 /* --------------Contacto------------ */
-.form-selection {
-  transition: all;
-  transition-duration: 1s;
-}
+
 .form {
   max-width: 1000px;
   min-height: 400px;
