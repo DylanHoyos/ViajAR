@@ -270,6 +270,10 @@ footer {
   margin-bottom: 1rem;
 }
 /* --------------Contacto------------ */
+.form-selection {
+  transition: all;
+  transition-duration: 1s;
+}
 .form {
   max-width: 1000px;
   min-height: 400px;
@@ -285,7 +289,15 @@ footer {
   padding: 1rem;
   margin-right: 1rem;
 }
-
+.form__textbox {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  border-radius: 15px;
+}
+.form__elegir {
+  text-align: center;
+}
 .form form input#Nombre,
 .form form input#Numero,
 .form form input#Mail,
@@ -420,6 +432,9 @@ footer {
   margin-right: 100px;
 }
 /* ----------------experiencias------------ */
+.nav__exp {
+  background-color: rgb(111, 194, 250);
+}
 .formulario1 {
   display: flex;
   justify-content: center;
