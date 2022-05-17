@@ -122,6 +122,14 @@ main {
   border-radius: 20px;
   border: none;
   background-color: rgba(245, 245, 245, 0.726);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.section__button:hover {
+  height: 60px;
+  width: 270px;
+  background-color: rgba(214, 214, 214, 0.726);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.336);
 }
 .grid {
   display: grid;
@@ -166,6 +174,11 @@ main {
   border-radius: 10px;
   background-color: whitesmoke;
   color: black;
+  transition: all;
+  transition-duration: 1s;
+}
+.cont__card:hover {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
 }
 .cont__card__titulos {
   font-size: 20px;
@@ -262,7 +275,9 @@ footer {
   margin: 0 !important;
   padding: 0 !important;
 }
-
+.col {
+  padding: 10px;
+}
 .carousel-item img {
   height: 700px;
 }
@@ -459,6 +474,7 @@ footer {
   width: 80%;
 
   display: grid;
+  align-content: space-around;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 33% 33% 33%;
   grid-template-areas:
@@ -564,6 +580,42 @@ footer {
 .color__span {
   color: rgb(0, 153, 255);
 }
+/* --------------------Animacion---------------------- */
+
+.sectE__titulo::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.sectE__titulo:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sectE__titulo::before {
+  content: "Descubri";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: rgb(153, 221, 255);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.sectE__titulo {
+  position: relative;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
 /* ------------------Destinos--------------- */
 .sectD {
   width: 100%;
@@ -673,6 +725,29 @@ video {
   display: none;
 }
 
+.animacion__card {
+  margin-top: 2rem;
+  background-color: rgb(221, 221, 221);
+  width: 500px;
+  border-radius: 8px;
+
+  animation-name: rotacion;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  /* transition: all;
+  transition-duration: 1s; */
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+}
+
+/* -----------------------------Mediaquery---------------------- */
 @media screen and (max-width: 1023px) {
   .header {
     flex-direction: column;
@@ -764,6 +839,15 @@ video {
     grid-area: ele5;
   }
 
+  .ofertas {
+    font-size: 24px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
   /* --------------------exp-------------------- */
   .sectE__titulo {
     font-size: 25px;
@@ -789,6 +873,12 @@ video {
 
   .vermas__titulo {
     font-size: 23px;
+  }
+  .formu__titulo {
+    font-size: 25px;
+  }
+  .formu__parrafo {
+    font-size: 18px;
   }
   /* --------------------Destinos-------------------- */
   .sectD__titulo {
@@ -827,6 +917,7 @@ video {
   .maravillas {
     min-height: 450px;
   }
+
   /* ----------------------------quienes somos---------------------- */
   .contacto__titulo {
     font-size: 35px;
@@ -875,6 +966,7 @@ video {
     margin-top: 0px;
     margin-left: 42%;
   }
+
   /* -----------------------contacto-------------------------- */
   .contacto__parrafo {
     font-size: 20px;
@@ -981,6 +1073,15 @@ video {
     height: 90%;
   }
 
+  .ofertas {
+    font-size: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
   /* ---------------menu burguer---------------- */
   #burguer {
     display: block;
@@ -1022,6 +1123,12 @@ video {
   .vermas__titulo {
     font-size: 18px;
   }
+  .formu__titulo {
+    font-size: 20px;
+  }
+  .formu__parrafo {
+    font-size: 16px;
+  }
   /* --------------------Destinos-------------------- */
   .sectD__titulo {
     font-size: 35px;
@@ -1054,11 +1161,18 @@ video {
     padding: 8px;
   }
   .maravillas__titulo {
-    font-size: 35px;
+    font-size: 25px;
   }
   .maravillas {
     min-height: 300px;
   }
+  .carousel__titulo {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+
   /* ----------------------------quienes somos---------------------- */
   .contacto__titulo {
     font-size: 30px;
