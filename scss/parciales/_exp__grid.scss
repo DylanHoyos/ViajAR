@@ -1,0 +1,58 @@
+.gridF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.gridE {
+    width: 80%;
+
+    display: grid;
+    align-content: space-around;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+        "elE1 elE1 elE2 elE2"
+        "elE3 elE3 elE5 elE5"
+        ". elE4 elE4 .";
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+   &__hijo {
+            text-align: center;
+            color: black;
+            min-height: 350px;
+            width: 100%;
+            position: relative;
+        }
+
+       &__hijo1 {
+            grid-area: elE1;
+        }
+               &__hijo2 {
+                    grid-area: elE2;
+                }
+                    &__hijo2 {
+                        grid-area: elE2;
+                    }
+                       &__hijo3 {
+                            grid-area: elE3;
+                        }
+                          &__hijo4 {
+                            grid-area: elE4;
+                            }
+                              &__hijo5 {
+                                    grid-area: elE5;
+                                }
+
+}
+
+
+
+
+
+
+
+

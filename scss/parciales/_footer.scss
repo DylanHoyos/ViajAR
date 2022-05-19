@@ -1,0 +1,42 @@
+footer {
+    padding: 4px 16px 16px;
+}
+
+.pie__container {
+    color: rgb(90, 90, 90);
+    border-top: 1px solid rgb(199, 199, 199);
+    border-width: 1.5px;
+
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pie__column1 {
+    width: 325px;
+}
+
+.pie__titulos {
+    text-align: center;
+}
+
+.pie__derechos {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pie__derechos__parrafo {
+    padding-top: 3rem;
+
+    color: #8a8a8a;
+}
+
+.pie__nombre {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}

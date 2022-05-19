@@ -1,0 +1,107 @@
+
+
+.form {
+    max-width: 1000px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: rgba(228, 228, 228, 0.616);
+    border-radius: 16px;
+    margin-bottom: 2rem;
+
+&__cont {
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+    &__textbox {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgba(0, 0, 0, 0.144);
+            border-radius: 15px;
+    }
+
+        &__elegir {
+                    text-align: center;
+        }
+
+        
+}
+
+
+
+
+
+
+.form form input#Nombre,
+.form form input#Numero,
+.form form input#Mail,
+.form form input#boton,
+.form form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid $color-principal;
+}
+
+.form form input#boton {
+    background-color: $color-principal;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.form__val {
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.form__link {
+    padding: 1rem;
+}
+
+.form__enlace {
+    text-decoration: none;
+    color: $color-principal;
+}
+
+.contacto {
+    padding: 2rem;
+    background-image: url(/img/Fcontacto.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+&__hero {
+        width: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+&__titulo {
+    font-size: 50px;
+}
+
+
+
+&__parrafo {
+    font-size: 27px;
+}
+
+
+&__parrafo2 {
+    font-size: 25px;
+    padding-top: 2rem;
+}
+
+
+}
+
+
+
+

@@ -1,0 +1,55 @@
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+
+&__burguer {
+        text-decoration: none;
+        color: rgba(245, 245, 245, 0.904);
+        font-size: 35px;
+    }
+
+
+}
+
+.nav {
+    padding: 24px;
+
+ &__lista {
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+         &__item {
+            list-style: none;
+            margin-left: 16px;
+            margin-right: 16px;
+                    }
+                    &__link {
+                        color: whitesmoke;
+                        text-decoration: none;
+                                }
+                                &__logo {
+                                    width: 100px;
+                                    height: 30px;
+                                    margin: 8px;
+                                             }
+}
+
+
+
+
+
+
+
+
+.jam-close-circle-f {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
