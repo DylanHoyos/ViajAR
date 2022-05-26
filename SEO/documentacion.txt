@@ -1,0 +1,30 @@
+inicio: 
+use las keywords"Viajes, Viajar, Aventura, Experiencias, Paisajes, Naturaleza"
+Descripcion "ViajAR es la agencia lider en Argentina, elegi ViajAR y disfruta de experiencias unicas, con los mejores precios y los mejores paisajes"
+
+Contacto:
+use las mismas keywords
+Descripcion: "Contacta a ViajAR para poder tener tu viaje con tranquilidad, no dudes."
+
+Destinos:
+use las mismas keywords
+Descripcion"Conoce los destinos que tiene ViajAR, los mejores en Latinoamerica."
+
+Experiencias:
+use las mismas keywords
+Descripcion "Conoce las aventuras que proporciona ViajAR, una experincia unica. "
+
+Quienes Somos:
+use las mismas keywords
+Descripcion "Tenes dudas sobre nosotros, no dudes en conocer a los integrantes de ViajAR "
+
+Saque el lorem de toda la pagina y cree el sitemap.xml
+
+
+Sass2
+
+Cree 3 bucles con For para crear automaticamente hijos en el grid
+use el get-map para las propiedades del background img
+use mixin para las propiedades de flex
+use extend para los titulos de las tarjetas de inicio, para cambiarle el color a cada una sin perder las propiedades del titulo
+  

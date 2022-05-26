@@ -1,9 +1,7 @@
 .header {
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include FlexCenter(row, space-between, center);
+
     font-size: large;
 
 &__burguer {

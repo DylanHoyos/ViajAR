@@ -7,15 +7,32 @@ footer {
     border-top: 1px solid rgb(199, 199, 199);
     border-width: 1.5px;
 
+    
+
     padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
 }
-
-.pie__column1 {
-    width: 325px;
+.jam-instagram{
+    text-decoration: none;
+        color: rgba(17, 7, 1, 0.733);
+        font-size: 35px;
+}
+.jam-twitter {
+    text-decoration: none;
+    color: rgba(47, 160, 252, 0.904);
+    font-size: 35px;
+}
+.jam-facebook {
+    text-decoration: none;
+    border-bottom: none;
+    color: rgba(20, 23, 241, 0.904);
+    font-size: 35px;
+}
+.spanfooter{
+    text-decoration: none;
 }
 
 .pie__titulos {

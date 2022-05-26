@@ -1,8 +1,8 @@
 .banner__main {
-    background-image: url(../img/banner.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../../img/banner.svg);
+    background-position: map-get($propbackground, bposition);
+    background-repeat: map-get($propbackground, brepeat);
+    background-size: map-get($propbackground, bsize);
 }
 
 .info {
@@ -36,11 +36,9 @@
     min-height: 1000px;
     width: auto;
     background-image: url(../img/fondo.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
+    @include FlexCenter(column, center, center);
+  
+    background-repeat: map-get($propbackground, brepeat);
     background-position: top;
 
     background-attachment: fixed;
@@ -161,6 +159,28 @@ video {
 
 
         
+}
+
+
+.ofertas-1{
+    @extend .ofertas;
+    color: $color-principal;
+
+}
+.ofertas-2 {
+    @extend .ofertas;
+    color: blueviolet;
+
+}
+.ofertas-3 {
+    @extend .ofertas;
+    color: chartreuse;
+
+}
+.ofertas-4 {
+    @extend .ofertas;
+    color:coral;
+
 }
 
 

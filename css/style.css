@@ -1,3 +1,43 @@
+.grid__hijo1 {
+  grid-area: ele1;
+}
+
+.grid__hijo2 {
+  grid-area: ele2;
+}
+
+.grid__hijo3 {
+  grid-area: ele3;
+}
+
+.grid__hijo4 {
+  grid-area: ele4;
+}
+
+.grid__hijo5 {
+  grid-area: ele5;
+}
+
+.gridE__hijo1 {
+  grid-area: elE1;
+}
+
+.gridE__hijo2 {
+  grid-area: elE2;
+}
+
+.gridE__hijo3 {
+  grid-area: elE3;
+}
+
+.gridE__hijo4 {
+  grid-area: elE4;
+}
+
+.gridE__hijo5 {
+  grid-area: elE5;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +109,7 @@ main {
 }
 
 .banner__main {
-  background-image: url(../img/banner.svg);
+  background-image: url(../../img/banner.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +235,7 @@ video {
   width: 100%;
 }
 
-.ofertas {
+.ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
   color: #a80e0e;
   font-size: 30px;
   font-style: italic;
@@ -222,6 +262,22 @@ video {
   flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
+}
+
+.ofertas-1 {
+  color: #39aefa;
+}
+
+.ofertas-2 {
+  color: blueviolet;
+}
+
+.ofertas-3 {
+  color: chartreuse;
+}
+
+.ofertas-4 {
+  color: coral;
 }
 
 .row {
@@ -253,26 +309,6 @@ video {
   color: whitesmoke;
   min-height: 350px;
   width: 100%;
-}
-
-.grid__hijo1 {
-  grid-area: ele1;
-}
-
-.grid__hijo2 {
-  grid-area: ele2;
-}
-
-.grid__hijo3 {
-  grid-area: ele3;
-}
-
-.grid__hijo4 {
-  grid-area: ele4;
-}
-
-.grid__hijo5 {
-  grid-area: ele5;
 }
 
 .form {
@@ -861,7 +897,7 @@ video {
   .grid__hijo5 {
     grid-area: ele5;
   }
-  .ofertas {
+  .ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
     font-size: 25px;
   }
   .card-title {
@@ -1080,7 +1116,7 @@ video {
     width: 100%;
     height: 90%;
   }
-  .ofertas {
+  .ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
     font-size: 20px;
   }
   .card-title {
@@ -1284,8 +1320,27 @@ footer {
   text-align: center;
 }
 
-.pie__column1 {
-  width: 325px;
+.jam-instagram {
+  text-decoration: none;
+  color: rgba(17, 7, 1, 0.733);
+  font-size: 35px;
+}
+
+.jam-twitter {
+  text-decoration: none;
+  color: rgba(47, 160, 252, 0.904);
+  font-size: 35px;
+}
+
+.jam-facebook {
+  text-decoration: none;
+  border-bottom: none;
+  color: rgba(20, 23, 241, 0.904);
+  font-size: 35px;
+}
+
+.spanfooter {
+  text-decoration: none;
 }
 
 .pie__titulos {

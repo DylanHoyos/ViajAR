@@ -1,9 +1,9 @@
 .qs {
     padding: 2rem;
     background-image: url(../img/fondo-quienesomos.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: map-get($propbackground, bposition);
+    background-repeat: map-get($propbackground, brepeat);
+    background-size: map-get($propbackground, bsize);
 }
 
 .contacto__titulo2 {
@@ -54,18 +54,13 @@
 
 .contacto__flex {
     margin-right: 150px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@include FlexCenter(row, center, center);
+  
 }
 
 .contacto__flex2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include FlexCenter(column, center, center);
+  
 }
 
 .centrado {
@@ -75,6 +70,7 @@
 }
 
 .contacto__hero2 {
+    
     display: flex;
     justify-content: space-around;
     align-items: center;

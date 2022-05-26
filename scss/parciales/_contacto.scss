@@ -69,18 +69,15 @@
 .contacto {
     padding: 2rem;
     background-image: url(/img/Fcontacto.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: map-get($propbackground, bposition);
+    background-repeat:map-get($propbackground, brepeat);
+    background-size: map-get($propbackground, bsize);
 
 
 &__hero {
         width: auto;
         padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include FlexCenter(column, center, center);
     }
 
 &__titulo {

@@ -1,0 +1,33 @@
+@for $hijos from 1 to 6 {
+.grid__hijo#{$hijos}{
+    grid-area: ele#{$hijos}
+}   
+}
+
+// Hijos para Exp
+@for $hijosE from 1 to 6 {
+    .gridE__hijo#{$hijosE} {
+        grid-area: elE#{$hijosE}
+    }
+}
+
+@mixin FlexCenter($flexdirection, $justifycontent, $alignitems) {
+    display: flex;
+    flex-direction: $flexdirection ;
+    justify-content: $justifycontent;
+    align-items: $alignitems;
+    
+}
+$propbackground:(
+    bposition: center,
+    brepeat:no-repeat,
+    bsize:cover,
+);
+
+@for $ofertas from 1 to 5 {
+    .ofertas-#{$ofertas} {
+        @extend .ofertas;
+    }
+}
+
+
