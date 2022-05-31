@@ -9,6 +9,17 @@
             width: 100%;
             height: auto;
             position: relative;
+      
+                min-height: 1000px;
+                width: auto;
+                background-image: url(../../img/fondo-destino.jpg);
+                @include FlexCenter(column, center, center);
+                background-repeat: map-get($propbackground, brepeat);
+                background-position: top;
+            
+                background-attachment: fixed;
+
+   
         }
 
 
@@ -25,13 +36,30 @@
                                     font-size: 30px;
                                     color: whitesmoke;
                                 }
+                                
+}
+
+
+.banner__destino{
+        background-image: url(../../img/banner-destino1.svg);
+            background-position: map-get($propbackground, bposition);
+            background-repeat: map-get($propbackground, brepeat);
+            background-size: map-get($propbackground, bsize);
+}
+.banner__destino2 {
+    background-image: url(../../img/destinos2.svg);
+    background-position: map-get($propbackground, bposition);
+    background-repeat: map-get($propbackground, brepeat);
+    background-size: map-get($propbackground, bsize);
 }
 
 
 
-video {
-    width: 100%;
-}
+
+
+
+
+
 
 
 
@@ -60,9 +88,11 @@ video {
 
 .sectMain__card {
     margin-top: 2rem;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
     width: 500px;
     border-radius: 8px;
+    border: 0.5px rgb(182, 182, 182) solid;
+    
 }
 
 .sectMain__img {
@@ -121,9 +151,10 @@ video {
 
 .animacion__card {
     margin-top: 2rem;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
     width: 500px;
     border-radius: 8px;
+    border: 0.5px rgb(182, 182, 182) solid;
 
     animation-name: rotacion;
     animation-duration: 1s;
