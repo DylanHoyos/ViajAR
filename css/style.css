@@ -235,7 +235,11 @@ video {
   width: 100%;
 }
 
-.ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
+.ofertas,
+.ofertas-1,
+.ofertas-2,
+.ofertas-3,
+.ofertas-4 {
   color: #a80e0e;
   font-size: 30px;
   font-style: italic;
@@ -298,7 +302,8 @@ video {
 }
 
 .focus-in-expand {
-  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -345,7 +350,10 @@ video {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 500px 250px 350px;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele5 ele5 ele5" "ele5 ele5 ele5 ele5";
+  grid-template-areas:
+    "ele1 ele2 ele3 ele4"
+    "ele5 ele5 ele5 ele5"
+    "ele5 ele5 ele5 ele5";
 }
 
 .grid__hijo {
@@ -417,7 +425,7 @@ video {
 
 .contacto {
   padding: 2rem;
-  background-image: url(../../img/Fcontacto.svg);
+  background-image: url(../img/Fcontacto.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -679,7 +687,10 @@ video {
   align-content: space-around;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 33% 33% 33%;
-  grid-template-areas: "elE1 elE1 elE2 elE2" "elE3 elE3 elE5 elE5" ". elE4 elE4 .";
+  grid-template-areas:
+    "elE1 elE1 elE2 elE2"
+    "elE3 elE3 elE5 elE5"
+    ". elE4 elE4 .";
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -733,7 +744,7 @@ video {
   position: relative;
   min-height: 1000px;
   width: auto;
-  background-image: url(../../img/fondo-destino.jpg);
+  background-image: url(../img/fondo-destino.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -759,14 +770,14 @@ video {
 }
 
 .banner__destino {
-  background-image: url(../../img/banner-destino1.svg);
+  background-image: url(../img/banner-destino1.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .banner__destino2 {
-  background-image: url(../../img/destinos2.svg);
+  background-image: url(../img/destinos2.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -937,7 +948,11 @@ video {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 350px 350px 200px 200px;
-    grid-template-areas: "ele1  ele2 " "ele3  ele4 " "ele5  ele5 " "ele5  ele5 ";
+    grid-template-areas:
+      "ele1  ele2 "
+      "ele3  ele4 "
+      "ele5  ele5 "
+      "ele5  ele5 ";
     justify-content: center;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
@@ -963,7 +978,11 @@ video {
   .grid__hijo5 {
     grid-area: ele5;
   }
-  .ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
+  .ofertas,
+  .ofertas-1,
+  .ofertas-2,
+  .ofertas-3,
+  .ofertas-4 {
     font-size: 25px;
   }
   .card-title {
@@ -1096,7 +1115,10 @@ video {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25%;
-    grid-template-areas: "elE1 elE1 elE2 elE2" "elE3 elE3 elE5 elE5" ". elE4 elE4 .";
+    grid-template-areas:
+      "elE1 elE1 elE2 elE2"
+      "elE3 elE3 elE5 elE5"
+      ". elE4 elE4 .";
     column-gap: 10px;
     row-gap: 10px;
   }
@@ -1182,7 +1204,11 @@ video {
     width: 100%;
     height: 90%;
   }
-  .ofertas, .ofertas-1, .ofertas-2, .ofertas-3, .ofertas-4 {
+  .ofertas,
+  .ofertas-1,
+  .ofertas-2,
+  .ofertas-3,
+  .ofertas-4 {
     font-size: 20px;
   }
   .card-title {
@@ -1336,7 +1362,12 @@ video {
     display: grid;
     grid-template-columns: 80%;
     grid-template-rows: 350px 350px 350px 350px 200px;
-    grid-template-areas: "ele1   " "ele2   " "ele3  " "ele4  " "ele5  ";
+    grid-template-areas:
+      "ele1   "
+      "ele2   "
+      "ele3  "
+      "ele4  "
+      "ele5  ";
     grid-row-gap: 10px;
     grid-column-gap: 10px;
   }
@@ -1366,7 +1397,12 @@ video {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 15% 15% 15% 15% 15%;
-    grid-template-areas: "elE1 " "elE2  " "elE3" "elE4" "elE5";
+    grid-template-areas:
+      "elE1 "
+      "elE2  "
+      "elE3"
+      "elE4"
+      "elE5";
     row-gap: 10px;
   }
 }
