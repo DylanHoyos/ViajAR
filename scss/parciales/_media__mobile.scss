@@ -12,6 +12,9 @@
     .nav {
         display: none;
     }
+    .nav__item{
+        margin-left: 0px;
+    }
 
     .cont__img {
         width: 100%;
@@ -41,6 +44,7 @@
     .nav__cierre {
         display: flex;
     }
+   
 
     .pie__derechos__parrafo {
         font-size: 12px;
@@ -93,8 +97,23 @@
 
     .pie__container {
         font-size: 12px;
+        flex-direction: column !important;
+
+    }
+    .pie__column1{
+        padding: 3px;
+        margin-bottom:3px ;
+    }
+    
+    .pie__column2 {
+         padding: 3px;
+        margin-top: 1rem;
     }
 
+   .pie__column3 {
+       padding: 3px;
+       margin: 3px;
+   }
     .cont__card {
         margin: 0px;
         padding: 0px;
@@ -114,6 +133,16 @@
         font-size: 14px;
     }
 
+        .carousel-item img{
+            height: 350px;
+        }
+    .titulo__carousel{
+    font-size: 18px;
+    }
+    .background__carousel{
+        background-image: none;
+
+    }
     /* ---------------menu burguer---------------- */
     #burguer {
         display: block;
@@ -287,6 +316,9 @@
 
     .contacto__parrafo2 {
         font-size: 16px;
+    }
+    .contacto__flex{
+        flex-direction: column;
     }
 
     /* --------------------grid-------------------------- */

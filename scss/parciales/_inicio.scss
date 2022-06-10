@@ -3,6 +3,7 @@
     background-position: map-get($propbackground, bposition);
     background-repeat: map-get($propbackground, brepeat);
     background-size: map-get($propbackground, bsize);
+  
 }
 
 .info {
@@ -35,26 +36,34 @@
 .section__1 {
     min-height: 1000px;
     width: auto;
-    background-image: url(../img/fondo.jpg);
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
+    url(../img/fondo.jpg) ;
     @include FlexCenter(column, center, center);
   
     background-repeat: map-get($propbackground, brepeat);
     background-position: top;
 
     background-attachment: fixed;
+   
+       
 }
+
 
 .section__titulo {
     font-size: 100px;
+    color: white;
+ 
 }
 
 .section__subtitulo {
     font-size: 35px;
+    color: white;
 }
 
 .section__parrafo {
     margin-top: 16px;
     font-size: 18px;
+    color: white;
 }
 
 .section__button {
@@ -64,9 +73,11 @@
     margin-top: 20px;
     border-radius: 20px;
     border: none;
-    background-color: rgba(245, 245, 245, 0.726);
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    
     transition: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 .section__button:hover {
@@ -128,7 +139,7 @@ video {
     width: 100%;
 }
 .ofertas {
-    color: rgb(168, 14, 14);
+    color: $color-principal;
     font-size: 30px;
     font-style: italic;
 }
@@ -169,17 +180,17 @@ video {
 }
 .ofertas-2 {
     @extend .ofertas;
-    color: blueviolet;
+    color: $color-principal;
 
 }
 .ofertas-3 {
     @extend .ofertas;
-    color: chartreuse;
+    color: $color-principal;
 
 }
 .ofertas-4 {
     @extend .ofertas;
-    color:coral;
+    color:$color-principal;
 
 }
 
@@ -195,7 +206,16 @@ video {
 }
 
 .carousel-item img {
-    height: 700px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90% !important;
+    background: red;
+    border-radius: 10px;
+}
+.titulo__carousel{
+    text-align: center;
+    font-size: 28px;
 }
 
 .carousel {

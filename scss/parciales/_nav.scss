@@ -21,6 +21,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding-top: 8px;
         }
          &__item {
             list-style: none;
@@ -30,6 +31,15 @@
                     &__link {
                         color: whitesmoke;
                         text-decoration: none;
+                        transition: all 0.5s;
+                        
+
+                        &:hover{
+                            color: $color-principal;
+                            border-bottom: 2px solid $color-principal;
+                            
+
+                        }
                                 }
                                 &__logo {
                                     width: 100px;
