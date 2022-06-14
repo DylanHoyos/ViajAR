@@ -116,7 +116,7 @@ main {
 }
 
 .banner__main {
-  background-image: url(../../img/banner.svg);
+  background-image: url(../img/banner.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,7 +438,7 @@ video {
 
 .contacto {
   padding: 2rem;
-  background-image: url(../../img/Fcontacto.svg);
+  background-image: url(../img/Fcontacto.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,5 @@
 .banner__main {
-    background-image: url(../../img/banner.svg);
+    background-image: url(../img/banner.svg);
     background-position: map-get($propbackground, bposition);
     background-repeat: map-get($propbackground, brepeat);
     background-size: map-get($propbackground, bsize);
