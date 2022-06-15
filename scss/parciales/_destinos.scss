@@ -140,12 +140,6 @@
     text-align: center;
     background-color: #0000007a;
 }
-.background__carousel{
-    background-image: url(../../img/carousel-destinos.svg);
-    background-position: map-get($propbackground, bposition);
-        background-size: map-get($propbackground, bsize);
-        background-repeat: map-get($propbackground, brepeat);
-}
 
 .pagination__flex{
     padding-top: 2rem;
@@ -161,33 +155,4 @@
     margin-bottom: 0;
 }
 
-.animacion__card {
-    margin-top: 2rem;
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    border-radius: 8px;
-   
 
-    animation-name: rotacion;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    /* transition: all;
-  transition-duration: 1s; */
-}
-
-@keyframes rotacion {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(10deg);
-    }
-    50%{
-        transform: rotate(-10deg);
-
-    }
-    75% {
-         transform: rotate(0deg);
-        }
-}
